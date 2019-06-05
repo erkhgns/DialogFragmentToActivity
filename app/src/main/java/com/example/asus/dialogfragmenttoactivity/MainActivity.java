@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements CustomDialogFragm
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "new changes", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "new toast", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "newlytoast", Toast.LENGTH_SHORT).show();
         openDialog  = findViewById(R.id.button);
         textView = findViewById(R.id.textView);
 
